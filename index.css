@@ -1,0 +1,138 @@
+* {
+    margin: 0px auto ;
+}
+html {
+    background-color: #ebebeb;
+}
+.player {
+    /* position: relative; */
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.dashboard {
+    padding: 16px 16px 14px;
+    background-color: #fff;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    max-width: 480px;
+    border-bottom: 1px solid #ebebeb;
+    z-index: 100;
+}
+
+header {
+    text-align: center;
+    padding: 0 14px 16px 0;
+}
+
+.cd {
+    width: 200px;
+    margin: auto;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.control {
+    display: flex;
+    line-height: 50px;
+    padding: 18px 0 8px 0px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px;
+}
+
+.btn-play {
+    display: block;
+    padding-right: 10px;
+}
+
+.btn-pause {
+    display: none;
+}
+
+.btn-toggle-play {
+    width: 56px;
+    height: 56px;
+    background-color: brown;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.progress {
+    width: 100%;
+    height: 6px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+
+audio {
+    width: 300px;
+    height: 54px;
+}
+
+.play-list {
+    margin-top: 408px;
+    padding: 12px;
+}
+
+.song {
+    padding: 8px 16px;
+    margin-bottom: 12px;
+    background-color: #fff;
+    width: 476px;
+    height: 44px;
+    font-size: 18px;
+    margin: 0 0 12px;
+    padding: 8px 6px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.thumb {
+    height: 44px;
+    width: 44px;
+    background-color:  #fff; 
+    margin: 0 8px;
+}
+
+.img-singer {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.body h3 {
+    font-size: 18px;
+}
+
+.body p{
+    font-size: 12px;
+    margin-right: 112px;
+}
+
+.option {
+    width: 16px;
+    height: 16px;
+    padding: 16px 8px;
+}
+
+.ti-more-alt {
+    font-size: 18px;
+}
